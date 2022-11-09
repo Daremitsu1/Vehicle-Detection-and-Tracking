@@ -1,7 +1,7 @@
 <annotation>
 	<folder>frames</folder>
-	<filename>frame0.jpg</filename>
-	<path>C:\xc\frames\frame0.jpg</path>
+	<filename>frame3136.jpg</filename>
+	<path>C:\xc\frames\frame3136.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,34 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>333</xmin>
-			<ymin>212</ymin>
-			<xmax>432</xmax>
-			<ymax>279</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>car</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>548</xmin>
-			<ymin>267</ymin>
-			<xmax>643</xmax>
-			<ymax>331</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>van</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>605</xmin>
-			<ymin>95</ymin>
-			<xmax>666</xmax>
-			<ymax>138</ymax>
+			<xmin>181</xmin>
+			<ymin>98</ymin>
+			<xmax>206</xmax>
+			<ymax>134</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -53,34 +29,70 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>67</xmin>
-			<ymin>96</ymin>
-			<xmax>79</xmax>
-			<ymax>120</ymax>
+			<xmin>66</xmin>
+			<ymin>300</ymin>
+			<xmax>92</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bicycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>158</xmin>
+			<ymin>350</ymin>
+			<xmax>202</xmax>
+			<ymax>404</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>van</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>298</xmin>
+			<ymin>34</ymin>
+			<xmax>346</xmax>
+			<ymax>54</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>car</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>827</xmin>
-			<ymin>241</ymin>
-			<xmax>854</xmax>
-			<ymax>283</ymax>
+			<xmin>471</xmin>
+			<ymin>51</ymin>
+			<xmax>515</xmax>
+			<ymax>76</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>person</name>
+		<name>bus</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>381</xmin>
-			<ymin>15</ymin>
-			<xmax>392</xmax>
-			<ymax>33</ymax>
+			<xmin>142</xmin>
+			<ymin>4</ymin>
+			<xmax>192</xmax>
+			<ymax>38</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>car</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>143</xmin>
+			<ymin>47</ymin>
+			<xmax>171</xmax>
+			<ymax>75</ymax>
 		</bndbox>
 	</object>
 </annotation>

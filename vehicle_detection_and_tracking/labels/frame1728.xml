@@ -1,7 +1,7 @@
 <annotation>
 	<folder>frames</folder>
-	<filename>frame0.jpg</filename>
-	<path>C:\xc\frames\frame0.jpg</path>
+	<filename>frame1728.jpg</filename>
+	<path>C:\xc\frames\frame1728.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>333</xmin>
-			<ymin>212</ymin>
-			<xmax>432</xmax>
-			<ymax>279</ymax>
+			<xmin>227</xmin>
+			<ymin>27</ymin>
+			<xmax>260</xmax>
+			<ymax>49</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -29,34 +29,22 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>548</xmin>
-			<ymin>267</ymin>
-			<xmax>643</xmax>
-			<ymax>331</ymax>
+			<xmin>541</xmin>
+			<ymin>65</ymin>
+			<xmax>595</xmax>
+			<ymax>94</ymax>
 		</bndbox>
 	</object>
 	<object>
-		<name>van</name>
+		<name>car</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>605</xmin>
-			<ymin>95</ymin>
-			<xmax>666</xmax>
-			<ymax>138</ymax>
-		</bndbox>
-	</object>
-	<object>
-		<name>bicycle</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>67</xmin>
-			<ymin>96</ymin>
-			<xmax>79</xmax>
-			<ymax>120</ymax>
+			<xmin>656</xmin>
+			<ymin>126</ymin>
+			<xmax>713</xmax>
+			<ymax>167</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -65,10 +53,10 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>827</xmin>
-			<ymin>241</ymin>
+			<xmin>823</xmin>
+			<ymin>232</ymin>
 			<xmax>854</xmax>
-			<ymax>283</ymax>
+			<ymax>270</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -77,10 +65,34 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>381</xmin>
-			<ymin>15</ymin>
-			<xmax>392</xmax>
-			<ymax>33</ymax>
+			<xmin>736</xmin>
+			<ymin>71</ymin>
+			<xmax>750</xmax>
+			<ymax>97</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bicycle</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>81</xmin>
+			<ymin>87</ymin>
+			<xmax>102</xmax>
+			<ymax>107</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>van</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>160</xmin>
+			<ymin>13</ymin>
+			<xmax>188</xmax>
+			<ymax>32</ymax>
 		</bndbox>
 	</object>
 </annotation>
