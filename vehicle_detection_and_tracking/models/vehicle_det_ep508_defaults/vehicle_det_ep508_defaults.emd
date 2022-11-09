@@ -1,0 +1,140 @@
+{
+    "Framework": "arcgis.learn.models._inferencing",
+    "InferenceFunction": "ArcGISObjectDetector.py",
+    "ModelConfiguration": "_RetinaNet_Inference",
+    "ModelType": "ObjectDetection",
+    "ExtractBands": [
+        0,
+        1,
+        2
+    ],
+    "ModelParameters": {
+        "scales": [
+            1,
+            0.7937005259840998,
+            0.6299605249474366
+        ],
+        "ratios": [
+            0.5,
+            1,
+            2
+        ],
+        "backbone": "resnet50",
+        "backend": "pytorch"
+    },
+    "Classes": [
+        {
+            "Value": 3,
+            "Name": "bicycle",
+            "Color": [
+                96,
+                115,
+                253
+            ]
+        },
+        {
+            "Value": 8,
+            "Name": "bus",
+            "Color": [
+                252,
+                48,
+                147
+            ]
+        },
+        {
+            "Value": 1,
+            "Name": "car",
+            "Color": [
+                43,
+                56,
+                84
+            ]
+        },
+        {
+            "Value": 6,
+            "Name": "motorcycle",
+            "Color": [
+                79,
+                44,
+                22
+            ]
+        },
+        {
+            "Value": 4,
+            "Name": "person",
+            "Color": [
+                118,
+                74,
+                50
+            ]
+        },
+        {
+            "Value": 5,
+            "Name": "scooter",
+            "Color": [
+                70,
+                141,
+                245
+            ]
+        },
+        {
+            "Value": 9,
+            "Name": "tempo",
+            "Color": [
+                116,
+                244,
+                203
+            ]
+        },
+        {
+            "Value": 10,
+            "Name": "tractor",
+            "Color": [
+                52,
+                191,
+                126
+            ]
+        },
+        {
+            "Value": 7,
+            "Name": "truck",
+            "Color": [
+                222,
+                100,
+                2
+            ]
+        },
+        {
+            "Value": 2,
+            "Name": "van",
+            "Color": [
+                123,
+                10,
+                130
+            ]
+        }
+    ],
+    "SupportsVariableTileSize": false,
+    "ArcGISLearnVersion": "1.8.4",
+    "ModelFile": "vehicle_det_ep508_defaults.pth",
+    "ImageHeight": 480,
+    "ImageWidth": 480,
+    "ImageSpaceUsed": "PIXEL_SPACE",
+    "LearningRate": "5.7544e-06",
+    "ModelName": "RetinaNet",
+    "backend": "pytorch",
+    "accuracy": {
+        "bicycle": 0.5648148004655482,
+        "bus": 0.5,
+        "car": 0.7359915152356002,
+        "motorcycle": 0.0,
+        "person": 0.0,
+        "scooter": 0.0,
+        "tempo": 0.0,
+        "tractor": 0.0,
+        "truck": 1.0,
+        "van": 0.3636363744735718
+    },
+    "resize_to": null,
+    "IsMultispectral": false
+}
